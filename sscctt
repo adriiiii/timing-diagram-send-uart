@@ -1,0 +1,17 @@
+{ signal: [
+  ['Set',
+   {name: 'Buffer1', 	wave: 'l....Pl....Pl....Pl....P'},
+   {name: 'Buffer2', 	wave: 'l.......Pl....Pl....Pl..'},
+  ],
+  ['Clear',
+   {name: 'Buffer1', 	wave: 'l..h.L...h.L...h.L...h.L'},
+   {name: 'Buffer2', 	wave: 'l.....h.L...h.L...h.L...'},
+  ],
+  ['Event',
+   {name: 'TX END', 	wave: 'l....Pl.Pl.Pl.Pl.Pl.Pl.P'},
+   {name: 'Start TX', 	wave: 'l..pl.pl.pl.pl.pl.pl.pl.'},
+  ],
+   {name: 'TX', 		wave: 'l..h.lh.lh.lh.lh.lh.lh.l'},
+   {name: 'clk', 		wave: 'p.......', period: 3}
+],
+}
